@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+ 
+ 
+  <div class="shopFunctionality">
+    <div class="addProduct">
+      <p class="addProduct__title">Add product</p>
+      <div class="addProduct__field">
+        <p>Name</p>
+        <input class="addProduct__name" type="text">
+      </div>
+      <div class="addProduct__field">
+        <p>Image</p>
+        <input class="addProduct__image" type="text">
+      </div>
+      <div class="addProduct__field">
+        <p>Description</p>
+        <input class="addProduct__description" type="text">
+      </div>
+      <div class="addProduct__field">
+        <p>Price</p>
+        <input class="addProduct__price" type="number">
+      </div>
+      <div class="addProduct__field">
+        <p>Quantity</p>
+        <input class="addProduct__quantity" type="number">
+      </div>
+      <button class="addProduct__button">Add product</button>
+    </div>
+    <div class="removeProduct">
+      <p class="removeProduct__title">Remove product</p>
+      <div class="removeProduct__field">
+        <p>Name</p>
+        <input class="removeProduct__Name" type="text">
+      </div>
+      <button class="removeProduct__button">Remove product</button>
+    </div>
+  </div>
+
+  <div class="productsList"></div>
+
+  <div class="calculate">
+    <p class="calculate__value">Sum: <span></span></p>
+    <button class="calculate__button">Calculate</button>
+  </div>
+
+  <script src="shop.js"></script>
+</body>
+</html>
